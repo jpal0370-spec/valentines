@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #ff758c, #ff7eb3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  width: 90%;
+  max-width: 350px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+}
+
+button {
+  padding: 14px 26px;
+  font-size: 16px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+#yesBtn {
+  background: #e91e63;
+  color: white;
+}
+
+#noBtn {
+  background: #ccc;
+}
+
+.screen {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.9);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+.screen img {
+  width: 80%;
+  max-width: 320px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
